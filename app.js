@@ -71,15 +71,21 @@ function renderTopSummary(items) {
 }
 
 function renderRecommendation(items) {
-  const [first, second] = items;
+  const [first] = items;
+  const foodSorted = [...items].sort((a, b) => b.scores.food - a.scores.food);
+  const bestFood = foodSorted[0].id === first.id ? foodSorted[1] ?? foodSorted[0] : foodSorted[0];
+  const foodLead =
+    bestFood.id === first.id
+      ? `食事最優先でも ${bestFood.name}`
+      : `食事最優先なら ${bestFood.name}`;
   document.getElementById("recommendation").innerHTML = `
     <div class="recommendation-card">
       <p><strong>おすすめは ${first.name}</strong> です。</p>
       <p class="meta-text">${first.recommendation}</p>
     </div>
     <div class="recommendation-card">
-      <p><strong>食事最優先なら ${second.name}</strong> も有力です。</p>
-      <p class="meta-text">${second.altRecommendation}</p>
+      <p><strong>${foodLead}</strong> も有力です。</p>
+      <p class="meta-text">${bestFood.recommendation}</p>
     </div>
   `;
 }
