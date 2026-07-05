@@ -1,0 +1,289 @@
+{
+  "snapshot": {
+    "updatedAt": "2026-07-05 JST 手動更新",
+    "scope": "2026/09/14チェックイン・1泊・大人2名・禁煙・温泉必須",
+    "note": "価格は取得できたもののみ表示。予約状況更新ボタンは保存済み JSON を再取得します。"
+  },
+  "hotels": [
+    {
+      "id": "taisetsu",
+      "rank": 1,
+      "name": "ホテル大雪 ONSEN & CANYON RESORT",
+      "bestFor": "食事も温泉も落としたくない二人向け",
+      "summary": "食事の厚みと温泉の強さのバランスが最も良い。客室風呂候補もあり、優先順位に最も素直。",
+      "recommendation": "食事1位ではないものの、3大浴場・2露天・客室露天の厚みが強く、食事も3レストラン体制で十分高水準です。優先順位を総合すると最も失敗しにくい候補です。",
+      "altRecommendation": "層雲閣は食事の印象が強い一方で、温泉バリエーションではホテル大雪に劣ります。食事偏重で選ぶなら2番手として有力です。",
+      "scores": {
+        "food": 4.7,
+        "onsen": 5.0,
+        "cleanliness": 4.5,
+        "privateBath": 5.0
+      },
+      "pricing": {
+        "qualifyingFrom": null,
+        "referenceFrom": null,
+        "shortLabel": "未取得",
+        "detail": "公式 Tripla ウィジェットは今回の自動取得が不安定で、指定条件の税込総額を確定取得できませんでした。予約導線から再確認を前提にしています。"
+      },
+      "availability": {
+        "label": "要公式再確認",
+        "badgeClass": "badge-unknown",
+        "detail": "今回の自動取得では予約ウィジェット側の結果取得が不安定でした。公開導線は残してあります。"
+      },
+      "cancellation": "公式予約画面で再確認推奨（今回は自動抽出不可）",
+      "location": {
+        "summary": "層雲峡の高台側。温泉街の中でも眺望を取りやすい立地。",
+        "highlights": [
+          "住所: 〒078-1701 北海道上川郡上川町字層雲峡",
+          "旭川・上川方面からのアクセス説明が明確",
+          "温泉街の高台訴求があり、景観重視の滞在と相性が良い"
+        ],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%9B%E3%83%86%E3%83%AB%E5%A4%A7%E9%9B%AA%20%E5%B1%A4%E9%9B%B2%E5%B3%A1"
+      },
+      "facilities": [
+        "3つの大浴場、2つの露天風呂",
+        "露天風展望風呂付客室「和房 雪花」あり",
+        "全室禁煙",
+        "HINNAの森 / inankur / 季饗庵の3レストラン体制",
+        "2025年11月からFREE FLOW STYLEでドリンク強化予定"
+      ],
+      "comparisonNotes": [
+        "食事: ビュッフェだけでなく創作料理・個室食まで選択肢が広い",
+        "温泉: 4候補の中で最も厚い",
+        "綺麗さ: 客室訴求と館内改修の見せ方が比較的モダン",
+        "貸切風呂ではなく客室風呂で優位"
+      ],
+      "booking": {
+        "official": "https://www.hotel-taisetsu.com/?tripla_booking_widget_open=search",
+        "rakutenSearch": "https://www.google.com/search?q=site%3Atravel.rakuten.co.jp+%E3%83%9B%E3%83%86%E3%83%AB%E5%A4%A7%E9%9B%AA+%E5%B1%A4%E9%9B%B2%E5%B3%A1",
+        "jalanSearch": "https://www.google.com/search?q=site%3Awww.jalan.net+%E3%83%9B%E3%83%86%E3%83%AB%E5%A4%A7%E9%9B%AA+%E5%B1%A4%E9%9B%B2%E5%B3%A1"
+      },
+      "sources": [
+        {
+          "label": "ホテル大雪 公式 客室",
+          "url": "https://www.hotel-taisetsu.com/stay.php"
+        },
+        {
+          "label": "ホテル大雪 公式 料理",
+          "url": "https://www.hotel-taisetsu.com/food.php"
+        },
+        {
+          "label": "ホテル大雪 公式 アクセス",
+          "url": "https://www.hotel-taisetsu.com/access.php"
+        }
+      ]
+    },
+    {
+      "id": "sounkaku",
+      "rank": 2,
+      "name": "層雲閣 MOUNTAIN RESORT 1923",
+      "bestFor": "食事最優先で、ラウンジ含めて満足感を取りたい二人向け",
+      "summary": "夕朝ビュッフェの訴求が最も強い。温泉の厚みでは見劣りするが、食事重視なら最上位候補。",
+      "recommendation": "焼きズワイガニ、ローストポーク、寿司、天ぷら、牛肉鉄板焼きなど夕食の見せ方が最も強く、朝食も海鮮勝手丼訴求があります。食事1位で選ぶならここです。",
+      "altRecommendation": "ホテル大雪より食事印象は強い一方で、風呂バリエーションや客室風呂の選択肢は弱めです。",
+      "scores": {
+        "food": 5.0,
+        "onsen": 3.5,
+        "cleanliness": 4.6,
+        "privateBath": 2.4
+      },
+      "pricing": {
+        "qualifyingFrom": null,
+        "referenceFrom": null,
+        "shortLabel": "未取得",
+        "detail": "公式予約サイトへの接続が不安定で、指定条件の税込総額を今回の自動取得では確定できませんでした。"
+      },
+      "availability": {
+        "label": "要公式再確認",
+        "badgeClass": "badge-unknown",
+        "detail": "予約導線は有効ですが、今回の自動確認では結果ページ取得に失敗しました。"
+      },
+      "cancellation": "公式予約画面で再確認推奨（今回は自動抽出不可）",
+      "location": {
+        "summary": "層雲峡温泉の中心帯。主要都市からのアクセス説明が分かりやすい。",
+        "highlights": [
+          "住所: 〒078-1792 北海道上川郡上川町層雲峡温泉",
+          "JR上川駅からバス約35分",
+          "アクセス案内が比較的整理されている"
+        ],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B1%A4%E9%9B%B2%E9%96%A3%20MOUNTAIN%20RESORT%201923"
+      },
+      "facilities": [
+        "夕食ビュッフェ 18:00-21:00 / 188席",
+        "朝食ビュッフェ 7:00-9:00 / 海鮮勝手丼あり",
+        "地産地消を軸にしたオープンキッチン形式",
+        "オールインクルーシブ訴求あり",
+        "和洋室・洋室のリニューアル訴求あり"
+      ],
+      "comparisonNotes": [
+        "食事: 4候補中で最も強い見せ方",
+        "温泉: ローカル比較メモでは露天1種・内湯1種寄りで弱め",
+        "綺麗さ: 1923ブランドと客室リニューアル訴求で高評価",
+        "貸切/客室風呂: 公式ページ上では優位な訴求を確認できず"
+      ],
+      "booking": {
+        "official": "https://reserve.489ban.net/client/sounkaku/0/plan",
+        "rakutenSearch": "https://www.google.com/search?q=site%3Atravel.rakuten.co.jp+%E5%B1%A4%E9%9B%B2%E9%96%A3+%E5%B1%A4%E9%9B%B2%E5%B3%A1",
+        "jalanSearch": "https://www.google.com/search?q=site%3Awww.jalan.net+%E5%B1%A4%E9%9B%B2%E9%96%A3+%E5%B1%A4%E9%9B%B2%E5%B3%A1"
+      },
+      "sources": [
+        {
+          "label": "層雲閣 公式 お食事",
+          "url": "https://sounkaku.co.jp/restaurants/"
+        },
+        {
+          "label": "層雲閣 公式 客室",
+          "url": "https://sounkaku.co.jp/guest-rooms/"
+        },
+        {
+          "label": "層雲閣 公式 アクセス",
+          "url": "https://sounkaku.co.jp/access/"
+        }
+      ]
+    },
+    {
+      "id": "choyotei",
+      "rank": 3,
+      "name": "層雲峡 朝陽亭",
+      "bestFor": "食事と温泉の両方をほどよく取りつつ、会席も残したい二人向け",
+      "summary": "3浴場構成と、バイキング / 会席の2会場が魅力。公式検索では現時点で朝夕食付プランを確認できなかった点が弱い。",
+      "recommendation": "食事そのものの厚みは強く、会席も選べるのが差別化要素です。ただし今回の指定日では公式検索上、朝夕食付の可視在庫を確認できませんでした。",
+      "altRecommendation": "もし朝夕食付プランが後日復活するなら、温泉3浴場と食事2会場のバランスはかなり良いです。",
+      "scores": {
+        "food": 4.4,
+        "onsen": 4.6,
+        "cleanliness": 4.0,
+        "privateBath": 2.8
+      },
+      "pricing": {
+        "qualifyingFrom": null,
+        "referenceFrom": 29260,
+        "shortLabel": "朝食付参考 ¥29,260〜",
+        "detail": "公式検索では、2026/09/14・大人2名の可視在庫として朝食付プランの会員価格 ¥29,260（通常 ¥30,800）を確認。朝夕食付プランは今回の自動取得範囲では未検出でした。"
+      },
+      "availability": {
+        "label": "条件要確認",
+        "badgeClass": "badge-hold",
+        "detail": "朝食付プランは確認済み。朝夕食付プランは公式検索で未検出のため、予約前に再確認が必要です。"
+      },
+      "cancellation": "2026/09/07 23:59まではキャンセル料なし（公式予約スナップショット）",
+      "location": {
+        "summary": "層雲峡温泉街。層雲峡停留所から送迎車対応あり。",
+        "highlights": [
+          "住所: 〒078-1795 北海道上川郡上川町層雲峡温泉",
+          "層雲峡停留所到着後に送迎依頼可能",
+          "銀河・流星の滝立ち寄り案内あり"
+        ],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B1%A4%E9%9B%B2%E5%B3%A1%20%E6%9C%9D%E9%99%BD%E4%BA%AD"
+      },
+      "facilities": [
+        "7F 天空露天「朝陽山」",
+        "7F 展望大浴場「黒岳」",
+        "2F 癒しの湯「桂月」",
+        "サウナあり",
+        "バイキング会場「早紅葉」+ 会席料理「北番屋」"
+      ],
+      "comparisonNotes": [
+        "食事: バイキングと会席の2択が明確で、道北食材訴求も強い",
+        "温泉: 3か所に分かれた浴場構成で満足度が高い",
+        "綺麗さ: 桂月は2008年全面改装の記載あり",
+        "貸切風呂は湯めぐり案内に出るが、主力訴求ではない"
+      ],
+      "booking": {
+        "official": "https://book.noguchi-g.com/booking/result?code=f26a04f5c37ba85f90aba754c58fc6f2&type=plan",
+        "rakutenSearch": "https://www.google.com/search?q=site%3Atravel.rakuten.co.jp+%E6%9C%9D%E9%99%BD%E4%BA%AD+%E5%B1%A4%E9%9B%B2%E5%B3%A1",
+        "jalanSearch": "https://www.google.com/search?q=site%3Awww.jalan.net+%E6%9C%9D%E9%99%BD%E4%BA%AD+%E5%B1%A4%E9%9B%B2%E5%B3%A1"
+      },
+      "sources": [
+        {
+          "label": "朝陽亭 公式 温泉",
+          "url": "https://www.choyotei.com/onsen/"
+        },
+        {
+          "label": "朝陽亭 公式 お食事",
+          "url": "https://www.choyotei.com/cuisine/"
+        },
+        {
+          "label": "朝陽亭 公式 アクセス",
+          "url": "https://www.choyotei.com/access/"
+        },
+        {
+          "label": "朝陽亭 公式予約スナップショット",
+          "url": "https://book.noguchi-g.com/booking/result?code=f26a04f5c37ba85f90aba754c58fc6f2&checkin=2026%2F09%2F14&checkout=2026%2F09%2F15&type=plan&is_day_use=false&order=price_low_to_high&is_including_occupied=false&adults=2&kids_tiers=%5B%5D&room_count=1&mcp_currency=JPY"
+        }
+      ]
+    },
+    {
+      "id": "choyo-resort",
+      "rank": 4,
+      "name": "朝陽リゾートホテル",
+      "bestFor": "貸切風呂や2泉質の個性を重視する二人向け",
+      "summary": "2泉質・貸切風呂・セルフロウリュは魅力。食事の厚みは4候補で最も弱く、指定日条件との相性では4番手。",
+      "recommendation": "温泉の個性は強く、2種類の泉質と貸切風呂は差別化になります。一方で食事重視という今回条件では優先度が下がります。",
+      "altRecommendation": "朝夕食付プランが後日見つかれば、貸切風呂重視の逃げ道として再評価の余地があります。",
+      "scores": {
+        "food": 3.8,
+        "onsen": 4.3,
+        "cleanliness": 4.1,
+        "privateBath": 4.6
+      },
+      "pricing": {
+        "qualifyingFrom": null,
+        "referenceFrom": 28424,
+        "shortLabel": "朝食付参考 ¥28,424〜",
+        "detail": "公式検索では、2026/09/14・大人2名の可視在庫として朝食付プランの会員価格 ¥28,424（通常 ¥29,920）を確認。朝夕食付プランは今回の自動取得範囲では未検出でした。"
+      },
+      "availability": {
+        "label": "条件要確認",
+        "badgeClass": "badge-hold",
+        "detail": "朝食付プランは確認済み。朝夕食付プランは公式検索で未検出のため、予約前の再検索が必要です。"
+      },
+      "cancellation": "2026/09/07 23:59まではキャンセル料なし（公式予約スナップショット）",
+      "location": {
+        "summary": "層雲峡温泉街。層雲峡停留所から送迎車対応あり。",
+        "highlights": [
+          "住所: 〒078-1701 北海道上川郡上川町層雲峡温泉",
+          "層雲峡停留所到着後に送迎依頼可能",
+          "銀河・流星の滝立ち寄り案内あり"
+        ],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%9D%E9%99%BD%E3%83%AA%E3%82%BE%E3%83%BC%E3%83%88%E3%83%9B%E3%83%86%E3%83%AB%20%E5%B1%A4%E9%9B%B2%E5%B3%A1"
+      },
+      "facilities": [
+        "層雲峡で唯一の2種類の泉質",
+        "大自然の湯「鳥の声」/「川の囁き」",
+        "貸切風呂・岩盤浴あり",
+        "セルフロウリュあり",
+        "アルプス山岳地帯モチーフのバイキング"
+      ],
+      "comparisonNotes": [
+        "食事: 世界各国 / アルプスモチーフで面白いが、純粋な食の厚みは他3候補が上",
+        "温泉: 泉質の個性は強い",
+        "綺麗さ: 2024年に露天リニューアル記載あり",
+        "貸切風呂重視なら一気に候補に戻る"
+      ],
+      "booking": {
+        "official": "https://book.noguchi-g.com/booking/result?code=8fbd1a4b43d5ed2dd3b1e33291cec4b3&type=plan",
+        "rakutenSearch": "https://www.google.com/search?q=site%3Atravel.rakuten.co.jp+%E6%9C%9D%E9%99%BD%E3%83%AA%E3%82%BE%E3%83%BC%E3%83%88%E3%83%9B%E3%83%86%E3%83%AB+%E5%B1%A4%E9%9B%B2%E5%B3%A1",
+        "jalanSearch": "https://www.google.com/search?q=site%3Awww.jalan.net+%E6%9C%9D%E9%99%BD%E3%83%AA%E3%82%BE%E3%83%BC%E3%83%88%E3%83%9B%E3%83%86%E3%83%AB+%E5%B1%A4%E9%9B%B2%E5%B3%A1"
+      },
+      "sources": [
+        {
+          "label": "朝陽リゾートホテル 公式 温泉",
+          "url": "https://www.choyo-resort.com/onsen/"
+        },
+        {
+          "label": "朝陽リゾートホテル 公式 お食事",
+          "url": "https://www.choyo-resort.com/cuisine/"
+        },
+        {
+          "label": "朝陽リゾートホテル 公式 アクセス",
+          "url": "https://www.choyo-resort.com/access/"
+        },
+        {
+          "label": "朝陽リゾートホテル 公式予約スナップショット",
+          "url": "https://book.noguchi-g.com/booking/result?code=8fbd1a4b43d5ed2dd3b1e33291cec4b3&checkin=2026%2F09%2F14&checkout=2026%2F09%2F15&type=plan&is_day_use=false&order=price_low_to_high&is_including_occupied=false&adults=2&kids_tiers=%5B%5D&room_count=1&mcp_currency=JPY"
+        }
+      ]
+    }
+  ]
+}
