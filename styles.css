@@ -232,6 +232,7 @@ main {
 
 table {
   width: 100%;
+  min-width: 780px;
   border-collapse: collapse;
 }
 
@@ -401,6 +402,66 @@ a {
   font-weight: 700;
 }
 
+.mobile-matrix {
+  display: none;
+}
+
+.mobile-row-card {
+  padding: 16px;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: #faf8f4;
+}
+
+.mobile-row-card + .mobile-row-card {
+  margin-top: 12px;
+}
+
+.mobile-row-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.mobile-row-top h3 {
+  font-size: 18px;
+}
+
+.mobile-row-summary {
+  margin: 12px 0 0;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.mobile-spec-list {
+  display: grid;
+  gap: 10px;
+  margin: 14px 0 0;
+}
+
+.mobile-spec-list div {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(30, 57, 50, 0.08);
+}
+
+.mobile-spec-list dt {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.mobile-spec-list dd {
+  margin: 0;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--green-deep);
+}
+
 @media (max-width: 980px) {
   .summary-grid,
   .hotel-grid,
@@ -414,6 +475,10 @@ a {
   .page-shell {
     width: min(100vw - 18px, 1180px);
     padding-top: 10px;
+  }
+
+  .hero h1 br {
+    display: none;
   }
 
   .hero,
@@ -442,6 +507,14 @@ a {
 
   .button {
     width: 100%;
+  }
+
+  .table-wrap {
+    display: none;
+  }
+
+  .mobile-matrix {
+    display: block;
   }
 }
 
