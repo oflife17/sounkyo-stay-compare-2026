@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>層雲峡1泊目 宿比較 | 2026/09/14</title>
+    <meta
+      name="description"
+      content="2026年9月14日チェックイン・大人2名・禁煙・温泉必須の条件で、層雲峡の4宿を食事重視で比較した手動更新サイト。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <p class="eyebrow">SOUNKYO STAY DECISION</p>
+        <h1>1日目の宿を、<br />食事起点で決める。</h1>
+        <p class="lead">
+          2026年9月14日チェックイン、1泊2日、大人2名、禁煙、温泉必須。
+          優先順位は <strong>食事 → 温泉 → 綺麗さ → 貸切風呂 / 客室風呂</strong>。
+        </p>
+        <div class="hero-meta">
+          <span>比較対象: 朝陽リゾートホテル / 朝陽亭 / ホテル大雪 / 層雲閣</span>
+          <span>更新方式: 手動更新</span>
+          <span id="snapshot-label">読み込み中…</span>
+        </div>
+      </header>
+
+      <main>
+        <section class="controls card">
+          <div class="controls-row">
+            <div>
+              <p class="section-kicker">Controls</p>
+              <h2>比較操作</h2>
+            </div>
+            <div class="button-row">
+              <button id="sort-price" class="button button-outline" type="button">
+                価格で並び替え
+              </button>
+              <button id="refresh-availability" class="button button-primary" type="button">
+                予約状況を更新
+              </button>
+              <button id="save-pdf" class="button button-dark" type="button">
+                PDF保存
+              </button>
+            </div>
+          </div>
+          <p class="controls-note">
+            「予約状況を更新」は、このサイトに保存済みの最新 JSON を再取得します。
+            GitHub Pages 上での外部予約サイト自動スクレイプは行っていません。
+          </p>
+        </section>
+
+        <section class="summary-grid" id="top-summary"></section>
+
+        <section class="card">
+          <p class="section-kicker">Recommendation</p>
+          <h2>結論</h2>
+          <div id="recommendation" class="recommendation"></div>
+        </section>
+
+        <section class="card">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">Matrix</p>
+              <h2>比較一覧</h2>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>宿</th>
+                  <th>総評</th>
+                  <th>料金</th>
+                  <th>予約状況</th>
+                  <th>食事</th>
+                  <th>温泉</th>
+                  <th>綺麗さ</th>
+                  <th>貸切 / 客室風呂</th>
+                </tr>
+              </thead>
+              <tbody id="compare-table"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">Details</p>
+              <h2>宿ごとの詳細</h2>
+            </div>
+          </div>
+          <div id="hotel-cards" class="hotel-grid"></div>
+        </section>
+
+        <section class="card">
+          <p class="section-kicker">Method</p>
+          <h2>このサイトの読み方</h2>
+          <ul class="plain-list">
+            <li>価格は「2026/09/14 チェックイン・1泊・大人2名・禁煙・温泉前提」の手動確認スナップショットを表示します。</li>
+            <li>価格が未取得の宿は、予約導線を優先して残し、更新時に再確認対象として扱っています。</li>
+            <li>「綺麗さ」は公式サイト上の改装情報・客室訴求・館内訴求を基にした比較用推定です。</li>
+            <li>「朝日リゾート」は、層雲峡温泉の「朝陽リゾートホテル」として比較しています。</li>
+          </ul>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
