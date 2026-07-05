@@ -257,7 +257,7 @@ function render() {
 }
 
 async function initialize() {
-  const payload = await loadData();
+  const payload = await loadData({ bustCache: true });
   hotels = payload.hotels;
   renderSnapshot(payload.snapshot);
   render();
