@@ -106,6 +106,47 @@ function renderTable(items) {
     .join("");
 }
 
+function renderMobileMatrix(items) {
+  document.getElementById("compare-mobile").innerHTML = items
+    .map(
+      (hotel) => `
+        <article class="mobile-row-card">
+          <div class="mobile-row-top">
+            <div>
+              <span class="rank-chip">${hotel.rank}位</span>
+              <h3>${hotel.name}</h3>
+            </div>
+            <span class="badge ${hotel.availability.badgeClass}">${hotel.availability.label}</span>
+          </div>
+          <p class="mobile-row-summary">${hotel.summary}</p>
+          <dl class="mobile-spec-list">
+            <div>
+              <dt>料金</dt>
+              <dd>${hotel.pricing.shortLabel}</dd>
+            </div>
+            <div>
+              <dt>食事</dt>
+              <dd>${scoreText(hotel.scores.food)}</dd>
+            </div>
+            <div>
+              <dt>温泉</dt>
+              <dd>${scoreText(hotel.scores.onsen)}</dd>
+            </div>
+            <div>
+              <dt>綺麗さ</dt>
+              <dd>${scoreText(hotel.scores.cleanliness)}</dd>
+            </div>
+            <div>
+              <dt>貸切 / 客室風呂</dt>
+              <dd>${scoreText(hotel.scores.privateBath)}</dd>
+            </div>
+          </dl>
+        </article>
+      `
+    )
+    .join("");
+}
+
 function linkButton(label, href) {
   return `<a class="link-button" href="${href}" target="_blank" rel="noopener noreferrer">${label}</a>`;
 }
@@ -205,6 +246,7 @@ function render() {
   renderTopSummary(rankedItems);
   renderRecommendation(rankedItems);
   renderTable(displayItems);
+  renderMobileMatrix(displayItems);
   renderCards(displayItems);
 }
 
